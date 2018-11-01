@@ -27,7 +27,7 @@
             Dim timeRuler1 As New DevExpress.XtraScheduler.TimeRuler()
             Dim timeRuler2 As New DevExpress.XtraScheduler.TimeRuler()
             Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
-            Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
+            Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerDataStorage(Me.components)
             Me.panel1 = New System.Windows.Forms.Panel()
             Me.label1 = New System.Windows.Forms.Label()
             Me.defaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
@@ -92,7 +92,7 @@
         #End Region
 
         Private WithEvents schedulerControl1 As DevExpress.XtraScheduler.SchedulerControl
-        Private schedulerStorage1 As DevExpress.XtraScheduler.SchedulerStorage
+        Private schedulerStorage1 As DevExpress.XtraScheduler.SchedulerDataStorage
         Private panel1 As System.Windows.Forms.Panel
         Private label1 As System.Windows.Forms.Label
         Private defaultLookAndFeel1 As DevExpress.LookAndFeel.DefaultLookAndFeel
