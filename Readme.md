@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/PopupMenuCustomization/Form1.cs) (VB: [Form1.vb](./VB/PopupMenuCustomization/Form1.vb))
+* [Helper.cs](./CS/PopupMenuCustomization/Helper.cs) (VB: [Helper.vb](./VB/PopupMenuCustomization/Helper.vb))
+* [Program.cs](./CS/PopupMenuCustomization/Program.cs) (VB: [Program.vb](./VB/PopupMenuCustomization/Program.vb))
+<!-- default file list end -->
 # How to customize the Scheduler popup menu
 
 
